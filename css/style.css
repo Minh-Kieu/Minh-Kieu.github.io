@@ -1,0 +1,333 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  line-height: 1.5;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+/*
+section > .container {
+  width: auto;
+  margin: auto;
+
+  padding: 30px 50px;
+}
+*/
+
+#banner {
+  position: relative;
+  background-size: cover;
+  width: auto;
+}
+
+.ttin {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ttin h1 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.ttin span {
+  font-size: 14px;
+  color: #ced4da;
+}
+
+#about #target {
+  background: #f1f3f5;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+#about #personal-info {
+  background: #e9ecef;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+#about p,
+li {
+  font-size: 12px;
+  line-height: 2;
+  color: #868e96;
+}
+
+#about span {
+  color: black;
+}
+
+#about p {
+  width: 80%;
+}
+
+#about h1 {
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+#about ul {
+  padding-left: 0;
+}
+
+#about li {
+  list-style: none;
+}
+
+#about .icon {
+  align-items: center;
+  padding-top: 20px;
+}
+/*
+#job-info .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50fr 40fr;
+  gap: 20px;
+}
+*/
+#job-info .job {
+  border: 1px solid #e9ecef;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#job-info h1 {
+  font-weight: 400;
+}
+
+#job-info .jobkn {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#job-info h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#job-info .timeline::before {
+  content: "";
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #2d9cdb;
+  border-radius: 50%;
+  left: 0px;
+  top: 10px;
+}
+
+#job-info .jobkn {
+  position: relative;
+  padding-left: 20px;
+}
+
+#job-info span {
+  font-style: italic;
+  border-radius: 20%;
+  padding: 3px 7px;
+  background-color: #4dabf7;
+  color: #fff;
+  font-size: 10px;
+}
+
+#job-info .one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#job-info .two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#job-info .three {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+#job-info .jobkn p {
+  color: #868e96;
+}
+
+#job-info .circle {
+  display: flex;
+  align-items: center;
+}
+
+#job-info .circle i {
+  color: #4dabf7;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#job-info .circle p {
+  margin-top: 30px;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+#job-info .circli {
+  border: 2px solid #4dabf7;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#job-info .four {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+#job-info .four .blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  padding: 0;
+}
+
+#job-info .four .white {
+  background: #e9ecef;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  padding: 0;
+}
+
+#certificate .chungchi1 {
+  display: flex;
+  font-size: 12px;
+  color: #868e96;
+}
+
+h1 {
+  font-weight: 400;
+  color: #212529;
+  font-size: 24px;
+}
+
+#certificate h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #212529;
+}
+
+#certificate .chungchi1 img {
+  width: auto;
+  height: 100px;
+  float: left;
+}
+
+#certificate .hai {
+  border-left: 1px solid #d6c08d;
+  padding-left: 20px;
+}
+
+#certificate .ba {
+  padding-top: 40px;
+  border-top: 1px solid #d6c08d;
+}
+
+#project img {
+  width: 100%;
+  height: auto;
+}
+
+#project .nam {
+  display: flex;
+  gap: 25px;
+  padding-left: 20px;
+  border-bottom: 1px solid #e9ecef;
+  height: 50px;
+  font-size: 12px;
+  align-items: center;
+}
+
+#project .cv-canhan {
+  padding-left: 20px;
+  border-bottom: 1px solid #e9ecef;
+  height: 50px;
+}
+
+#project .cv-canhan p {
+  padding-top: 12px;
+}
+/*
+#project .A {
+  width: 320px;
+  border: 1px solid #e9ecef;
+}
+*/
+#project table {
+  width: 100%;
+  height: 140px;
+  border-collapse: collapse;
+}
+
+#project td {
+  padding: 5px 0 10px 5px;
+}
+
+#project tr {
+  border-bottom: 1px solid #e9ecef;
+}
+
+#project tr,
+td {
+  font-size: 12px;
+  color: #868e96;
+}
+
+#project .nam span {
+  background-color: #2d9cdb;
+  border-radius: 25%;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+#project .nam p {
+  color: #868e96;
+}
+
+#footer li {
+  display: inline-block;
+  padding-right: 20px;
+  color: #868e96;
+  font-size: 12px;
+}
+
+#footer ul {
+  text-align: center;
+}
+
+#footer i {
+  color: #4dabf7;
+}

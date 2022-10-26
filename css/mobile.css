@@ -1,0 +1,37 @@
+@media screen and (max-width: 575px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #ba {
+    display: none;
+  }
+
+  #certificate .chungchi1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  #certificate h5 {
+    padding-top: 20px;
+  }
+
+  #certificate .chungchi1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #certificate .hai {
+    border: none;
+  }
+
+  #certificate .mot,
+  .hai {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  #footer ul {
+    text-align: center;
+  }
+}
